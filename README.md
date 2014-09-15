@@ -1,7 +1,7 @@
 sublimetext3-runonsave
 ======================
 
-Sublime Text 3 plugin to run any shell command.
+Sublime Text 3 plugin to run any shell command on file save event.
 
 This plugin is inspired by Build-on-Save plugin in a purplebeanie.com post (http://www.purplebeanie.com/Development/automatically-run-build-on-save-in-sublime-text-2.html) and SublimeOnSaveBuild by alexnj (https://github.com/alexnj/SublimeOnSaveBuild).
 
