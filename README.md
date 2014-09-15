@@ -9,16 +9,16 @@ The best use case of this plugin is (probably) in TDD (Test Driven Development) 
 
 How to use this plugin:
 
-Basically you just need to put the .py file in your Sublime Text 3 Packages directory (e.g.: ~/.config/sublime-text-3/Packages/User/runonsave.py). I suppose you will do this while in that directory:
+Basically you just need to put the .py file in your Sublime Text 3 Packages/User directory (e.g.: ~/.config/sublime-text-3/Packages/User/runonsave.py). Or, you can do this while in its parent directory (~/.config/sublime-text-3/Packages/):
 ```
-git clone git://github.com/chrishadi/sublimetext3-runonsave.git
+git clone git://github.com/chrishadi/SublimeRunOnSave.git
 ```
-Or, for you who are not familiar with Git commands, just create a .py file (yes, the name before .py doesn't matter) and put the text from "runonsave.py" into it. Voila, now you have new plugin.
+For you who are not familiar with Git commands, just create a .py file (yes, the name before .py doesn't matter) and put the text from "runonsave.py" into it. Voila, now you have new plugin.
 
 Now, comes the settings part:
 
 Create a Sublime Project (using "Save Project As" command from Sublime's Project menu), and then edit the project (Project > Edit Project) to resemble something like this (replace "phpunit" and "test.php" with your test framework and test file to run):
-```
+```javascript
 {
 	"settings":
 	{
