@@ -13,7 +13,7 @@ Basically you just need to put the .py file in your Sublime Text 3 Packages dire
 ```
 git clone git://github.com/chrishadi/sublimetext3-runonsave.git
 ```
-Or, for you who are not familiar with Git commands, just create a .py file (yes, the name before .py doesn't matter) and put the text from that "runonsave.py" into it. Voila, now you have new plugin.
+Or, for you who are not familiar with Git commands, just create a .py file (yes, the name before .py doesn't matter) and put the text from "runonsave.py" into it. Voila, now you have new plugin.
 
 Now, comes the settings part:
 
