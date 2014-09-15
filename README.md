@@ -5,7 +5,7 @@ Sublime Text 3 plugin to run any shell command on file save event.
 
 This plugin is inspired by Build-on-Save plugin in a purplebeanie.com post (http://www.purplebeanie.com/Development/automatically-run-build-on-save-in-sublime-text-2.html) and SublimeOnSaveBuild by alexnj (https://github.com/alexnj/SublimeOnSaveBuild).
 
-The best use case of this plugin probably is in TDD (Test Driven Development) process where Sublime will automatically run the test when you save a file.
+The best use case of this plugin is (probably) in TDD (Test Driven Development) process where Sublime will automatically run the test when you save a file.
 
 How to use this plugin:
 
