@@ -15,7 +15,7 @@ At the very minimum, you just need to put the "runonsave.py" in a sub directory 
 ```
 git clone git://github.com/chrishadi/SublimeRunOnSave.git
 ```
-Voila, you have a new plugin!
+Voila, you have a new plugin now!
 
 Here comes the settings part.
 
@@ -33,9 +33,6 @@ Create a Sublime Project (using "Save Project As" command from "Project" menu), 
 	}
 }
 ```
-Bravo!
-You have the minimal working settings to run this plugin.
-
 The "command" setting above is an array consists of the program name you wish to run as the first element and its parameter following as the next array element. That is quivalent to typing into a shell terminal a command of "phpunit test.php".
 
 You can also set the working directory of the project explicitly, so the plugin will rely on that setting and the command doesn't get run in the wrong directory. That run-in-the-wrong-path accident might happen when you open a file that doesn't belong to the current project (thus, doesn't reside in the project's directory) and then perform a Save action. Sublime sometimes runs a command within the context of a file's path. To set the working directory you add the "folders" entry in the project configuration as follows (it is a common setting for any project in Sublime Text):
