@@ -7,8 +7,9 @@ This plugin is inspired by Build-on-Save plugin from a post in purplebeanie.com 
 
 The best use case of this plugin is (probably) in TDD (Test Driven Development) process where you want Sublime to automatically run the test when you save a file.
 
-<br>
-#### How to use this plugin:
+
+How to use this plugin:
+-----------------------
 
 At the very minimum, you just need to put the "runonsave.py" in a sub directory of your Sublime Text 3's Packages folder (e.g.: ~/.config/sublime-text-3/Packages/YourSubdirectoryName). Or, you might want to do this while in the "Packages" directory:
 ```
