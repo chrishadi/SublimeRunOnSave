@@ -3,9 +3,9 @@ SublimeRunOnSave
 
 This is another Sublime Text 3 plugin to run any shell command on file save event.
 
-This plugin is inspired by Build-on-Save plugin from a post in purplebeanie.com (http://www.purplebeanie.com/Development/automatically-run-build-on-save-in-sublime-text-2.html) and SublimeOnSaveBuild by Alex N. Jose (https://github.com/alexnj/SublimeOnSaveBuild).
+This plugin is inspired by <a href="http://www.purplebeanie.com/Development/automatically-run-build-on-save-in-sublime-text-2.html">Build-on-Save</a> plugin from a post in purplebeanie.com and <a href="https://github.com/alexnj/SublimeOnSaveBuild">SublimeOnSaveBuild</a> by Alex N. Jose.
 
-The best use case of this plugin is (probably) in TDD (Test Driven Development) process where you want Sublime to automatically run the test when you save a file.
+The best use case for this plugin is (probably) in TDD (Test Driven Development) process where you want Sublime to automatically run the test when you save a file.
 
 
 How to use this plugin:
@@ -15,7 +15,8 @@ At the very minimum, you just need to put the "runonsave.py" in a sub directory 
 ```
 git clone git://github.com/chrishadi/SublimeRunOnSave.git
 ```
-Voila, you have a new plugin! Here comes the settings part.
+Voila, you have a new plugin!
+Here comes the settings part.
 
 Create a Sublime Project (using "Save Project As" command from "Project" menu), and then edit the project (Project > Edit Project) so that the project configuration resemble something like this:
 ```javascript
