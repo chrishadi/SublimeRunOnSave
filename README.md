@@ -11,7 +11,7 @@ The best use case of this plugin is (probably) in TDD (Test Driven Development) 
 How to use this plugin:
 -----------------------
 
-At the very minimum, you just need to put the "runonsave.py" in a sub directory of your Sublime Text 3's Packages folder (e.g.: ~/.config/sublime-text-3/Packages/YourFolderName). Or, while in the "Packages" directory you might want to do this:
+At the very minimum, you just need to put the "runonsave.py" in a sub directory of your Sublime Text 3's Packages folder (e.g.: ~/.config/sublime-text-3/Packages/YourSubdirectoryName). Or, while in the Packages directory you might want to do this:
 ```
 git clone git://github.com/chrishadi/SublimeRunOnSave.git
 ```
