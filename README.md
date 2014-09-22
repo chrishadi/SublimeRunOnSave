@@ -76,7 +76,7 @@ The last defined setting for this plugin is the "environment_variables". Here yo
 		"environment_variables:
 		[
 			"HOSTNAME": "test_machine",
-			"UID"     : 1001,
+			"UID" : 1001,
 		]
 	}
 }
