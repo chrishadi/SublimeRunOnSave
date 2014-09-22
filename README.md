@@ -33,6 +33,7 @@ Create a Sublime Project (using "Save Project As" command from "Project" menu), 
 	}
 }
 ```
+As you might have already guess by reading the configuration above, we enable the plugin by setting the "run_on_save" to value of 1.
 The "command" setting above is an array consists of the program name you wish to run as the first element and its parameter is following as the next array element. That is quivalent to typing into a shell terminal a command of "phpunit test.php".
 
 You can also set the working directory of the project explicitly, to ensure that the command always invoked in the correct directory. To set the working directory you add the "folders" entry in the project configuration as follows (it is actually a common setting for a project in Sublime Text):
