@@ -19,7 +19,7 @@ Voila, you have a new plugin now!
 
 Here comes the settings part.
 
-Create a Sublime Project (using "Save Project As" command from "Project" menu), and then edit the project (Project > Edit Project) so that the project configuration resemble something like this:
+Create a Sublime Project (using "Save Project As" command from "Project" menu), and then edit the project (Project > Edit Project) so that the project configuration resembles something like this:
 ```javascript
 {
 	"settings":
@@ -33,7 +33,7 @@ Create a Sublime Project (using "Save Project As" command from "Project" menu), 
 	}
 }
 ```
-The "command" setting above is an array consists of the program name you wish to run as the first element and its parameter following as the next array element. That is quivalent to typing into a shell terminal a command of "phpunit test.php".
+The "command" setting above is an array consists of the program name you wish to run as the first element and its parameter is following as the next array element. That is quivalent to typing into a shell terminal a command of "phpunit test.php".
 
 You can also set the working directory of the project explicitly, to ensure that the command always invoked in the correct directory. To set the working directory you add the "folders" entry in the project configuration as follows (it is actually a common setting for a project in Sublime Text):
 ```javascript
@@ -56,7 +56,7 @@ You can also set the working directory of the project explicitly, to ensure that
 }
 ```
 
-The last defined setting for this plugin is the "environment_variables". Here you can set environment variables to replace the shell environment variables temporarily. The environment variables should be specified as an array of "key: value" pairs. The complete setting with the environment variables defined wil be something like this:
+The last defined setting for this plugin is the "environment_variables". Here you can set alternative environment variables to compliment or replace the system environment variables temporarily. The environment variables should be specified as an array of key-value pairs. The example below redefines the "HOSTNAME" and "UID" variables if your Sublime Text 3 is the Linux/Mac version.
 ```javascript
 {
 	"folders":
