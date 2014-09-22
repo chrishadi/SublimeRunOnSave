@@ -56,7 +56,7 @@ You can also set the working directory of the project explicitly, to ensure that
 }
 ```
 
-The last defined setting for this plugin is the "environment_variables". Here you can set alternative environment variables to compliment or replace the system environment variables temporarily. The environment variables should be specified as an array of key-value pairs. The example below redefines the "HOSTNAME" and "UID" variables if your Sublime Text 3 is the Linux/Mac version.
+The last defined setting for this plugin is the "environment_variables". Here you can set alternative environment variables to complement or replace the system environment variables temporarily. The environment variables should be specified as an array of key-value pairs. The example below redefines the "HOSTNAME" and "UID" variables if your Sublime Text 3 is the Linux/Mac version.
 ```javascript
 {
 	"folders":
