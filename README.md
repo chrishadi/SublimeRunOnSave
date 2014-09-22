@@ -16,6 +16,7 @@ At the very minimum, you just need to put the "runonsave.py" in a sub directory 
 git clone git://github.com/chrishadi/SublimeRunOnSave.git
 ```
 Voila, you have a new plugin!
+
 Here comes the settings part.
 
 Create a Sublime Project (using "Save Project As" command from "Project" menu), and then edit the project (Project > Edit Project) so that the project configuration resemble something like this:
