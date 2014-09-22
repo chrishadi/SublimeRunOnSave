@@ -35,7 +35,7 @@ Create a Sublime Project (using "Save Project As" command from "Project" menu), 
 ```
 The "command" setting above is an array consists of the program name you wish to run as the first element and its parameter following as the next array element. That is quivalent to typing into a shell terminal a command of "phpunit test.php".
 
-You can also set the working directory of the project explicitly, so the plugin will rely on that setting and the command doesn't get run in the wrong directory. That run-in-the-wrong-path accident might happen when you open a file that doesn't belong to the current project (thus, doesn't reside in the project's directory) and then perform a Save action. Sublime sometimes runs a command within the context of a file's path. To set the working directory you add the "folders" entry in the project configuration as follows (it is a common setting for any project in Sublime Text):
+You can also set the working directory of the project explicitly, to ensure that the command always invoked in the correct directory. To set the working directory you add the "folders" entry in the project configuration as follows (it is actually a common setting for a project in Sublime Text):
 ```javascript
 {
 	"folders":
